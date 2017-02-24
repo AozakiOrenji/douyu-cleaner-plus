@@ -1,5 +1,5 @@
 @-moz-document domain("douyu.com") {
-    /* 进一步优化，适用于只用斗鱼看特定主播的人xdddd */
+    /* 进一步优化，适用于只用斗鱼看特定主播的人 */
 
     #js-live-room-normal-right {
         float: right;
@@ -120,12 +120,27 @@
         display:none !important;
     }
 
+    /* 屏蔽站内信、未读消息提示 */
+    #js-msg-barrage, #header .head-oth .o-login>b{
+        display:none;
+    }
+
+    /* 屏蔽用户头像、用户信息区无用元素 */
+    .l-pic, .mem-pic, .authenticate, .live-set, .wallet, .uim-foot, .user-level-next, .level-tip{
+        display:none;
+    }
+    .o-login .l-menu .logout{
+        top:15px;
+    }
+
+    /* 屏蔽分区广播、贵族 */
+    #js-noble-speaker-btn, .noble--barrage-box{
+        display:none;
+    }
+
     /* 屏蔽头图 */
     #container{
         background:#dddddd !important;
-    }
-    .live-room{
-        padding-top:70px !important;
     }
     body{
         background:#dddddd !important;

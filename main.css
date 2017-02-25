@@ -40,6 +40,9 @@
     .nick{
         display:inline !important;
     }
+    .enter-level1{
+        display:none;
+    }
 
     /* 一直显示礼物剩余时间 */
     .yw-warmTip{

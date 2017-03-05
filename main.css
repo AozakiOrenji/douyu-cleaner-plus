@@ -142,6 +142,11 @@
         display:none;
     }
 
+    /* 屏蔽斗鱼贵族广告 */
+    .myvip--guide--oncar{
+        display:none !important;
+    }
+
     /* 屏蔽头图 */
     #container{
         background:#dddddd !important;
@@ -152,6 +157,11 @@
 
     /* 屏蔽神tm圣诞礼物活动 */
     #js-stats-and-actions .action-list{
+        display:none;
+    }
+
+    /* 屏蔽新功能提醒 */
+    .normallevel-lead{
         display:none;
     }
 

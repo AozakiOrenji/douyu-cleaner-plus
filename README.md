@@ -32,6 +32,9 @@ https://userstyles.org/styles/132037/douyu-cleaner
 Follow me on github:
 https://github.com/AozakiOrenji/douyu-cleaner-plus
 
+[2017/3/5]
+[+]屏蔽新功能提醒和斗鱼贵族功能提醒
+
 [2017/2/25]
 [+]清理用户面板。考虑了很久之后发现只有用户等级、用户名和‘登出’是有用的。
    毕竟是激进清理嘛。

@@ -160,6 +160,11 @@
         display:none;
     }
 
+    /* 屏蔽X爵 */
+    .enter-level1,.enter-level2,.enter-level3,.enter-level4,.enter-level5{
+        display:none;
+    }
+
     /* 屏蔽新功能提醒 */
     .normallevel-lead{
         display:none;

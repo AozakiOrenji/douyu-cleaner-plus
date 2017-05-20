@@ -32,6 +32,9 @@ https://userstyles.org/styles/132037/douyu-cleaner
 Follow me on github:
 https://github.com/AozakiOrenji/douyu-cleaner-plus
 
+[2017/5/20]
+[+]屏蔽澳门首个主播等级系统上线啦和斗鱼嘉年华什么的
+
 [2017/3/5]
 [+]屏蔽新功能提醒和斗鱼贵族功能提醒
 

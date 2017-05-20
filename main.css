@@ -180,6 +180,14 @@
         display:none;
     }
 
+    /* 修复聊天框样式错误 */
+    .chat-feat .cs-textarea, .chat-feat .login-inside-nologbor, .chat-feat .login-inside{
+        border: 0;
+    }
+    .chat-feat .login-inside-nologbor{
+        padding:0 0 10px 0;
+    }
+
     /* 激进策略:完全屏蔽礼物区 */
     /*#gift-content{
         display:none;

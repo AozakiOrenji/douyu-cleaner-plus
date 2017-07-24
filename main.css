@@ -166,7 +166,7 @@
     }
 
     /* 屏蔽新功能提醒 */
-    .normallevel-lead{
+    .normallevel-lead,.high-notice,.yw-user-guide{
         display:none;
     }
 
@@ -187,6 +187,20 @@
     .chat-feat .login-inside-nologbor{
         padding:0 0 10px 0;
     }
+
+    .cont,.header-video-area .header-my-video,.pop-arrow{
+        display:none;
+    }
+
+    .pop-dialog{
+        display:none !important;
+    }
+
+    /* 关闭标题背景 */
+    #header{
+        background:none;
+    }
+
 
     /* 激进策略:完全屏蔽礼物区 */
     /*#gift-content{

@@ -100,11 +100,10 @@
         display:none;
     }
 
-    /* 屏蔽鱼翅和鱼翅礼物功能 */
+    /* 屏蔽鱼翅和鱼翅礼物功能（除背包） */
     #js-stats-and-actions .uinfo-ywyc .m-wealth .y2,
     .gift-item,
-    .uinfo-ywyc .m-wealth .getYc,
-    .backpack-btn{
+    .uinfo-ywyc .m-wealth .getYc{
         display:none;
     }
     .g-list [data-name*="鱼丸"]{
@@ -201,6 +200,11 @@
         background:none;
     }
 
+    /* 修正背包icon */
+    .backpack-btn{
+        position:relative;
+        left:70%;
+    }
 
     /* 激进策略:完全屏蔽礼物区 */
     /*#gift-content{

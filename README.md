@@ -18,6 +18,9 @@ https://userstyles.org/styles/136524/
 
 # Introduction
 
+Fork me on github:
+https://github.com/Misaka-0x447f/douyu-cleaner-plus
+
 使用更激进的策略进一步清理直播界面和聊天框，隐藏大部分付费内容，适用于只用斗鱼看特定主播，例如星际老流氓、同卵双狗和电竞慈禧，不关注斗鱼其他活动的人。此样式只负责屏蔽**一般直播间**的东西。
 
 此样式仅在Windows版Google chrome上测试过，更多的只为我自己考虑，也不会测试其他浏览器的兼容性。
@@ -28,9 +31,6 @@ https://userstyles.org/styles/132037/douyu-cleaner
 
 此css样式非原作者授权。若原作者有意将这些规则收录到清爽斗鱼中，请联系:
 2917433887@qq.com
-
-Follow me on github:
-https://github.com/AozakiOrenji/douyu-cleaner-plus
 
 [2017/11/19]
 [+]屏蔽了所有视频特效，flash视频（也就是直播视频）除外。

@@ -38,7 +38,7 @@
     .enter-level1 {
         display: none;
     }
-
+    
     /* 一直显示礼物剩余时间 */
     .yw-warmTip {
         display: block !important;
@@ -79,10 +79,16 @@
         left: 200px !important;
         top: -25px !important;
         background: none !important;
-    }
-
-    .yw-collect-box {
         display: block !important;
+    }
+    /* 修复点击领取鱼丸按钮出现提示导致领取鱼丸列表向上偏移 */
+    .c-txt {
+			display: none !important;
+			height: 0px !important;
+    }
+	.get-yw .yw-collect-box.ywrmd {
+			padding: 28px 10px 17px 8px !important;
+			min-height: 35px !important;
     }
 
     /* 如要开启欢迎进入消息请为下面的规则添加注释 */

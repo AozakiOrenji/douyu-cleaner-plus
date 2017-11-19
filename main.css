@@ -206,6 +206,29 @@
         left:70%;
     }
 
+    /* block gamepacks-box */
+    .gamepacks-box{
+        display: none;
+    }
+
+    /* block all video effects && event effects*/
+    video, .video-container, .video-box, [data-component-id=videoHeader]{
+        display: none !important;
+    }
+    [data-component-id=view], .annualfestival-header{
+        background-image: none !important;
+    }
+
+    /* block annualfestival */
+    #header.annualfestival-header:after, #header.annualfestival-header:before{
+        display: none !important;
+    }
+
+    /* block suggest-search */
+    .search-hot-key, .search-suggest-box{
+        display: none;
+    }
+
     /* 激进策略:完全屏蔽礼物区 */
     /*#gift-content{
         display:none;

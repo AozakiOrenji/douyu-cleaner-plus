@@ -32,6 +32,12 @@ https://userstyles.org/styles/132037/douyu-cleaner
 Follow me on github:
 https://github.com/AozakiOrenji/douyu-cleaner-plus
 
+[2017/11/19]
+[+]屏蔽了所有视频特效，flash视频（也就是直播视频）除外。
+[+]屏蔽了搜索建议的内容。
+[+]屏蔽了游戏推广。
+[+]屏蔽了新出现的header特效。
+
 [2017/8/29]
 [#]将背包按钮加入回来（因为签到不怎么送鱼丸只送礼物了）
 

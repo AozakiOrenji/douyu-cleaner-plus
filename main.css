@@ -1,236 +1,236 @@
 @-moz-document domain("douyu.com") {
     /* 进一步优化，适用于只用斗鱼看特定主播的人 */
-
     /* 修正底部空白 */
-    html{
+    html {
         background: #ddd;
     }
 
     /* 屏蔽无用按钮 */
-    .head .head-nav,
-    .head-oth .o-download,
-    .head-oth .head-history,
-    .catagory-order-head .catagory-order-num{
+    .head .head-nav, .head-oth .o-download, .head-oth .head-history, .catagory-order-head .catagory-order-num {
         display: none;
     }
-    .zb-sendmsg-icon,
-    #js-fans-rank{
+
+    .zb-sendmsg-icon, #js-fans-rank {
         display: none !important;
     }
 
     /* 精简聊天区(欢迎进入消息、图标等) */
-    .text-cont .user-level-wel,
-    .chat-icon-pad:not(.name),
-    .text-cont .user-level,
-    .jschatli .text-cont .chat-icon-pad,
-    .chat-task-madel,
-    .lw-imgs,
-    .task-wel{
-        display:none !important;
+    .text-cont .user-level-wel, .chat-icon-pad:not(.name), .text-cont .user-level, .jschatli .text-cont .chat-icon-pad, .chat-task-madel, .lw-imgs, .task-wel {
+        display: none !important;
     }
-    .chat .chat-cont .c-list li .text-cont .hy-name{
-        color:black;
+
+    .chat .chat-cont .c-list li .text-cont .hy-name {
+        color: black;
     }
-    .f-phone{
-        display:none;
+
+    .f-phone {
+        display: none;
     }
-    .text-cont{
-        color:#000000 !important;
+
+    .text-cont {
+        color: #000000 !important;
     }
-    .nick{
-        display:inline !important;
+
+    .nick {
+        display: inline !important;
     }
-    .enter-level1{
-        display:none;
+
+    .enter-level1 {
+        display: none;
     }
 
     /* 一直显示礼物剩余时间 */
-    .yw-warmTip{
-        display:block !important;
-        position:absolute !important;
-        left:48px !important;
-        top:16px !important;
+    .yw-warmTip {
+        display: block !important;
+        position: absolute !important;
+        left: 48px !important;
+        top: 16px !important;
         /*  z-index:-999 !important;  */
-        font-size:16px;
-        font-weight:400;
-        background-color:#fff !important;
-        color:#000 !important;
-        padding:0 8px !important;
+
+        font-size: 16px;
+        font-weight: 400;
+        background-color: #fff !important;
+        color: #000 !important;
+        padding: 0 8px !important;
     }
-    .arrow:not(.fl){
-        display:none !important;
+
+    .arrow:not(.fl) {
+        display: none !important;
     }
-    .g-time{
-        opacity:0 !important;
+
+    .g-time {
+        opacity: 0 !important;
     }
-    [title$=获得鱼丸]{
+
+    [title$=获得鱼丸] {
         background-position: -413px -32px !important;
-        position:relative;
-        top:-1px;
-        font-size:12px;
+        position: relative;
+        top: -1px;
+        font-size: 12px;
     }
 
     /* 一直显示领取按钮 */
-    .yet:not(.follow-btn),.wait-get,.w-cq-get,.may-get,.cq-get,
-    .w-cq-get+a,.cq-get+a,
-    .yw-collect-box .close,
-    .get-state-ard{
-        display:none !important;
+    .yet:not(.follow-btn), .wait-get, .w-cq-get, .may-get, .cq-get, .w-cq-get+a, .cq-get+a, .yw-collect-box .close, .get-state-ard {
+        display: none !important;
     }
-    .yw-collect-box{
-        position:absolute !important;
-        left:200px !important;
-        top:-25px !important;
+
+    .yw-collect-box {
+        position: absolute !important;
+        left: 200px !important;
+        top: -25px !important;
         background: none !important;
     }
-    .yw-collect-box{
-        display:block !important;
+
+    .yw-collect-box {
+        display: block !important;
     }
 
     /* 如要开启欢迎进入消息请为下面的规则添加注释 */
-    .text-cont .c-wel,
-    .text-cont .hy-name,
-    .text-cont .hy-name+span{
-        display:none;
+    .text-cont .c-wel, .text-cont .hy-name, .text-cont .hy-name+span {
+        display: none;
     }
 
     /* 屏蔽公告 */
-    .chat .chat-cont .c-list .cj-img,
-    .super-barrage{
-        display:none;
+    .chat .chat-cont .c-list .cj-img, .super-barrage {
+        display: none;
     }
 
     /* 屏蔽鱼翅和鱼翅礼物功能（除背包） */
-    #js-stats-and-actions .uinfo-ywyc .m-wealth .y2,
-    .gift-item,
-    .uinfo-ywyc .m-wealth .getYc{
-        display:none;
+    #js-stats-and-actions .uinfo-ywyc .m-wealth .y2, .gift-item, .uinfo-ywyc .m-wealth .getYc {
+        display: none;
     }
-    .g-list [data-name*="鱼丸"]{
-        display:list-item;
+
+    .g-list [data-name*="鱼丸"] {
+        display: list-item;
     }
 
     /* 屏蔽首充提示和道具收集提示 */
-    .first-charge-tips,.first-prop-tips{
-        display:none !important;
+    .first-charge-tips, .first-prop-tips {
+        display: none !important;
     }
+
     /* 屏蔽主播商品推荐（？） */
-    .fishop-anchor-recommands-box{
-        display:none;
+    .fishop-anchor-recommands-box {
+        display: none;
     }
+
     /* 屏蔽微信提示 */
-    .weixin-info-panel{
-        display:none !important;
+    .weixin-info-panel {
+        display: none !important;
     }
 
     /* 屏蔽站内信、未读消息提示 */
-    #js-msg-barrage, #header .head-oth .o-login>b{
-        display:none;
+    #js-msg-barrage, #header .head-oth .o-login>b {
+        display: none;
     }
 
     /* 屏蔽用户头像、用户信息区无用元素 */
-    .l-pic, .mem-pic, .authenticate, .live-set, .wallet, .uim-foot, .user-level-next, .level-tip{
-        display:none;
+    .l-pic, .mem-pic, .authenticate, .live-set, .wallet, .uim-foot, .user-level-next, .level-tip {
+        display: none;
     }
-    .o-login .l-menu .logout{
-        top:15px;
+
+    .o-login .l-menu .logout {
+        top: 15px;
     }
 
     /* 屏蔽分区广播、贵族 */
-    #js-noble-speaker-btn, .noble--barrage-box{
-        display:none;
+    #js-noble-speaker-btn, .noble--barrage-box {
+        display: none;
     }
 
     /* 屏蔽斗鱼贵族广告 */
-    .myvip--guide--oncar{
-        display:none !important;
+    .myvip--guide--oncar {
+        display: none !important;
     }
 
     /* 屏蔽头图 */
-    #container{
-        background:#dddddd !important;
+    #container {
+        background: #dddddd !important;
     }
-    body{
-        background:#dddddd !important;
+
+    body {
+        background: #dddddd !important;
     }
 
     /* 屏蔽神tm圣诞礼物活动 */
-    #js-stats-and-actions .action-list{
-        display:none;
+    #js-stats-and-actions .action-list {
+        display: none;
     }
 
     /* 屏蔽X爵 */
-    .enter-level1,.enter-level2,.enter-level3,.enter-level4,.enter-level5{
-        display:none;
+    .enter-level1, .enter-level2, .enter-level3, .enter-level4, .enter-level5 {
+        display: none;
     }
 
     /* 屏蔽新功能提醒 */
-    .normallevel-lead,.high-notice,.yw-user-guide{
-        display:none;
+    .normallevel-lead, .high-notice, .yw-user-guide {
+        display: none;
     }
 
     /* 屏蔽*主播等级上线通知*弹出窗口 */
-    .anchorlevel-lead{
-        display:none;
+    .anchorlevel-lead {
+        display: none;
     }
 
     /* 屏蔽一个不知道什么鬼活动 */
-    .douyu-carnival-box{
-        display:none;
+    .douyu-carnival-box {
+        display: none;
     }
 
     /* 修复聊天框样式错误 */
-    .chat-feat .cs-textarea, .chat-feat .login-inside-nologbor, .chat-feat .login-inside{
+    .chat-feat .cs-textarea, .chat-feat .login-inside-nologbor, .chat-feat .login-inside {
         border: 0;
     }
-    .chat-feat .login-inside-nologbor{
-        padding:0 0 10px 0;
+
+    .chat-feat .login-inside-nologbor {
+        padding: 0 0 10px 0;
     }
 
-    .cont,.header-video-area .header-my-video,.pop-arrow{
-        display:none;
+    .cont, .header-video-area .header-my-video, .pop-arrow {
+        display: none;
     }
 
-    .pop-dialog{
-        display:none !important;
+    .pop-dialog {
+        display: none !important;
     }
 
     /* 关闭标题背景 */
-    #header{
-        background:none;
+    #header {
+        background: none;
     }
 
     /* 修正背包icon */
-    .backpack-btn{
-        position:relative;
-        left:70%;
+    .backpack-btn {
+        position: relative;
+        left: 70%;
     }
 
     /* block gamepacks-box */
-    .gamepacks-box{
+    .gamepacks-box {
         display: none;
     }
 
     /* block all video effects && event effects*/
-    video, .video-container, .video-box, [data-component-id=videoHeader]{
+    video, .video-container, .video-box, [data-component-id=videoHeader] {
         display: none !important;
     }
-    [data-component-id=view], .annualfestival-header{
+
+    [data-component-id=view], .annualfestival-header {
         background-image: none !important;
     }
 
     /* block annualfestival */
-    #header.annualfestival-header:after, #header.annualfestival-header:before{
+    #header.annualfestival-header:after, #header.annualfestival-header:before {
         display: none !important;
     }
 
     /* block suggest-search */
-    .search-hot-key, .search-suggest-box{
+    .search-hot-key, .search-suggest-box {
         display: none;
     }
 
     /* 激进策略:完全屏蔽礼物区 */
     /*#gift-content{
-        display:none;
-    }*/
+            display:none;
+        }*/
 }

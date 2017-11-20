@@ -17,6 +17,10 @@ https://userstyles.org/styles/132037/douyu-cleaner
 https://userstyles.org/styles/136524/
 
 # Introduction
+<i>
+请注意必须同时安装本体：
+<a href="https://userstyles.org/styles/132037/douyu-cleaner">https://userstyles.org/styles/132037/douyu-cleaner</a>
+</i>
 
 Fork me on github:
 https://github.com/Misaka-0x447f/douyu-cleaner-plus
@@ -24,8 +28,6 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 使用更激进的策略进一步清理直播界面和聊天框，隐藏大部分付费内容，适用于只用斗鱼看特定主播，例如星际老流氓、同卵双狗和电竞慈禧，不关注斗鱼其他活动的人。此样式只负责屏蔽**一般直播间**的东西。
 
 此样式仅在Windows版Google chrome上测试过，更多的只为我自己考虑，也不会测试其他浏览器的兼容性。
-请注意必须同时安装本体：
-https://userstyles.org/styles/132037/douyu-cleaner
 
 视频区域的礼物特效我也没办法的呀，那个是shockwave flash做的播放器并不是html做的东西stylish屏蔽不了的，估计别的chrome插件也屏蔽不了所以也不要问这个了，我相信用stylish的大部分应该有web方面鸡本功的对不对。
 
@@ -35,7 +37,7 @@ https://userstyles.org/styles/132037/douyu-cleaner
 [+]屏蔽了游戏推广。
 [+]屏蔽了新出现的header特效。
 
-[2017/11/13]
+[2017/11/13] contributed by @weijohn
 [#]修复点击领取鱼丸按钮出现提示导致领取鱼丸列表向上偏移
 
 [2017/8/29]

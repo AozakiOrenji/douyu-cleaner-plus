@@ -131,7 +131,7 @@
     }
 
     /* 屏蔽用户头像、用户信息区无用元素 */
-    .l-pic, .mem-pic, .authenticate, .live-set, .wallet, .uim-foot, .user-level-next, .level-tip {
+    .l-pic, .mem-pic, .authenticate, .live-set, .wallet, .uim-foot, .user-level-next, .level-tip, .chart-li-girl {
         display: none;
     }
 

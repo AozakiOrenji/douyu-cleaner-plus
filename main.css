@@ -216,8 +216,8 @@
         display: none;
     }
 
-    /* block all video effects && event effects*/
-    video, .video-container, .video-box, [data-component-id=videoHeader] {
+    /* block all video effects && event effects except player loaded by douyu player plugin */
+    div:not(.danmu-video)>video, span>video, .video-container, .video-box, [data-component-id=videoHeader] {
         display: none !important;
     }
 
@@ -232,6 +232,21 @@
 
     /* block suggest-search */
     .search-hot-key, .search-suggest-box {
+        display: none;
+    }
+
+    /* block pay-give-wrap 送鱼丸链接 */
+    .pay-give-wrap{
+        display: none;
+    }
+
+    /* block all no-login */
+    .no-login{
+        display: none;
+    }
+
+    /* diy-download-btn **displayed as some link btn when i founded */
+    .diy-download-btn{
         display: none;
     }
 

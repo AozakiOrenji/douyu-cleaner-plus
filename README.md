@@ -1,22 +1,22 @@
-# this.Name == "douyu-cleaner-plus"
+# self.Name >>> "douyu-cleaner-plus"
 
-一个相当于Douyu cleaner插件的东西，使用非常激进的策略清理斗鱼界面。
+为增强 [Douyu cleaner](https://github.com/weijohn/Douyu-Cleaner) 功能而设计的样式表，使用非常激进的策略清理斗鱼界面。
 
-# 下载和安装
+# Deployment
 
-第一步：安装stylish
+Install stylish
 
 https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe?utm_source=gmail
 
-第二步：安装Douyu cleaner
+Install Douyu cleaner
 
 https://userstyles.org/styles/132037/douyu-cleaner
 
-第三步：安装Douyu cleaner plus
+Install Douyu cleaner plus
 
 https://userstyles.org/styles/136524/
 
-# Introduction
+# Introduction on stylish
 <i>
 请注意必须同时安装本体：
 <a href="https://userstyles.org/styles/132037/douyu-cleaner">https://userstyles.org/styles/132037/douyu-cleaner</a>
@@ -29,7 +29,18 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 
 此样式仅在Windows版Google chrome上测试过，更多的只为我自己考虑，也不会测试其他浏览器的兼容性。
 
-视频区域的礼物特效我也没办法的呀，那个是shockwave flash做的播放器并不是html做的东西stylish屏蔽不了的，估计别的chrome插件也屏蔽不了所以也不要问这个了，我相信用stylish的大部分应该有web方面鸡本功的对不对。
+视频区域的礼物特效我也没办法的呀，那个是shockwave flash做的播放器并不是html做的东西stylish屏蔽不了的，我相信用stylish的大部分应该有web方面鸡本功的对不对。想屏蔽的话还是建议用第三方播放器比较好。
+
+## Changelog
+
+[2017/12/15]
+[#]改进了对于<a href="https://chrome.google.com/webstore/detail/hbocinidadgpnbcamhjgfbgiebhpnmfj">斗鱼H5播放器</a>的兼容性。你现在也许可以同时使用这两个组件。
+[+]清理部分活动送鱼丸链接和未登录广告
+[#]清理描述中的部分错误。naive!
+[+]清了个下载按钮。
+
+[2017/12/2]
+[#]聊天区域清理新增清理女性进入直播间提示
 
 [2017/11/19]
 [+]屏蔽了所有视频特效，flash视频（也就是直播视频）除外。
@@ -62,6 +73,7 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 [#]刷存在感。
 [+]添加github版本控制
    (虽然一个人做这个没什么好控制的，但是还是希望能收到pull request。)
+   ([2017/11/13]收到了 Douyu cleaner 作者的 pull request!)
 
 [2017/1/14]
 [+]头图烦死，屏蔽掉。

@@ -33,6 +33,11 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 
 ## Changelog
 
+[2017/12/27]
+[//]过了半个月看一次斗鱼又多出来一堆广告很生气。这次来试着干掉未来的一些垃圾元素吧。
+[+]尝试屏蔽礼物区未来会出现的所有广告
+[+]尝试屏蔽所有具有节日性质或引导性质的元素(即class名称包含festival, guide或者notice)
+
 [2017/12/15]
 [#]改进了对于<a href="https://chrome.google.com/webstore/detail/hbocinidadgpnbcamhjgfbgiebhpnmfj">斗鱼H5播放器</a>的兼容性。你现在也许可以同时使用这两个组件。
 [+]清理部分活动送鱼丸链接和未登录广告

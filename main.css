@@ -110,6 +110,11 @@
         display: list-item;
     }
 
+    /* Attempt to block all ads in gift area */
+    #gift-content div:not(.g-list){
+        display: none;
+    }
+
     /* 屏蔽首充提示和道具收集提示 */
     .first-charge-tips, .first-prop-tips {
         display: none !important;
@@ -247,6 +252,11 @@
 
     /* diy-download-btn **displayed as some link btn when i founded */
     .diy-download-btn{
+        display: none;
+    }
+
+    /* attempt to block everything with "festival" and "guide" */
+    [class*="festival"]:not(#header), [class*="guide"], [class*="notice"]{
         display: none;
     }
 

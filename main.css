@@ -255,8 +255,8 @@
         display: none;
     }
 
-    /* attempt to block everything with "festival" and "guide" */
-    [class*="festival"]:not(#header), [class*="guide"], [class*="notice"]{
+    /* attempt to block future ads */
+    [class*="festival"]:not(#header), [class*="guide"], [class*="notice"]:not([class*="no-notice"]), [class*="pendant"]{
         display: none;
     }
 

@@ -38,7 +38,7 @@
     .enter-level1 {
         display: none;
     }
-    
+
     /* 一直显示礼物剩余时间 */
     .yw-warmTip {
         display: block !important;
@@ -83,12 +83,12 @@
     }
     /* 修复点击领取鱼丸按钮出现提示导致领取鱼丸列表向上偏移 */
     .c-txt {
-			display: none !important;
-			height: 0 !important;
+        display: none !important;
+        height: 0 !important;
     }
-	.get-yw .yw-collect-box.ywrmd {
-			padding: 28px 10px 17px 8px !important;
-			min-height: 35px !important;
+    .get-yw .yw-collect-box.ywrmd {
+        padding: 28px 10px 17px 8px !important;
+        min-height: 35px !important;
     }
 
     /* 如要开启欢迎进入消息请为下面的规则添加注释 */
@@ -256,8 +256,12 @@
     }
 
     /* attempt to block future ads */
-    [class*="festival"]:not(#header), [class*="guide"], [class*="notice"]:not([class*="no-notice"]), [class*="pendant"]{
+    [class*="festival"]:not(#header), [class*="guide"], [class*="notice"]:not([class*="no-notice"]), [class*="pendant"], [class*="guess"]{
         display: none;
+    }
+
+    .action-list{
+        display: none !important;
     }
 
     /* 激进策略:完全屏蔽礼物区 */

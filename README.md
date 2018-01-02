@@ -34,6 +34,8 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 如果你的直播间用此样式时出现问题，欢迎联系 447f.misaka@outlook.com 或 2917433887@qq.com
 
 ## Changelog
+[2018/1/2]
+[+]干掉了动作列表。如果觉得精简过头了的话请写邮件告诉我。
 
 [2017/12/28] issued by Zed
 [#]对昨天的版本做patch，修复部分房间聊天框消失问题。

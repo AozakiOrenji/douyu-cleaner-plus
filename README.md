@@ -34,6 +34,9 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 如果你的直播间用此样式时出现问题，欢迎联系 447f.misaka@outlook.com 或 2917433887@qq.com
 
 ## Changelog
+[2018/1/3] issued by Zed
+[#]对标题添加背景，避免出现和页面的重叠
+
 [2018/1/2]
 [+]干掉了动作列表。如果觉得精简过头了的话请写邮件告诉我。
 

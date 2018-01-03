@@ -264,6 +264,11 @@
         display: none !important;
     }
 
+    /* nav-bar background */
+    .head{
+        background-color: rgba(200, 200, 200, 0.8)
+    }
+
     /* 激进策略:完全屏蔽礼物区 */
     /*#gift-content{
             display:none;

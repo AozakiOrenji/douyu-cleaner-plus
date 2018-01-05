@@ -34,6 +34,10 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 如果你的直播间用此样式时出现问题，欢迎联系 447f.misaka@outlook.com 或 2917433887@qq.com
 
 ## Changelog
+[2018/1/5]
+[#]更改标题背景配色为官方header颜色
+[+]对斗鱼视频做了一些适配，依旧是只适合看特定主播的人。隐藏推荐模块，淡化搜索框。
+
 [2018/1/3] issued by Zed
 [#]对标题添加背景，避免出现和页面的重叠
 

@@ -222,7 +222,7 @@
     }
 
     /* block all video effects && event effects except player loaded by douyu player plugin */
-    div:not(.danmu-video)>video, span>video, .video-container, .video-box, [data-component-id=videoHeader] {
+    div:not(.danmu-video)>video, span>video, .video-container, div:not(.video-main)>.video-box, [data-component-id=videoHeader] {
         display: none !important;
     }
 
@@ -265,12 +265,42 @@
     }
 
     /* nav-bar background */
-    .head{
-        background-color: rgba(200, 200, 200, 0.8)
+    #header{
+        background-color: rgba(245, 245, 245, 0.8)
     }
 
     /* 激进策略:完全屏蔽礼物区 */
     /*#gift-content{
             display:none;
         }*/
+}
+
+@-moz-document domain("v.douyu.com") {
+    /* effect on douyu video */
+
+    /* hide upload button, user head, recommended section */
+    .contribute, #header .head .head-oth .o-login .o-login-a .l-pic, #omnibus{
+        display: none;
+    }
+    .o-login-a{
+        position: relative;
+        top: 9px;
+    }
+
+    /* let search box more glassy */
+    #header .head-search .o-search{
+        border-color: rgba(220, 220, 220, 1)
+    }
+    #header .o-search .search-btn{
+        background-color: rgba(220, 220, 220, 1);
+        filter: grayscale(100%);
+    }
+    .icofont, .search-btn{
+        opacity: 0.3;
+    }
+
+    /* client ads */
+    .video-info-download{
+        display: none;
+    }
 }

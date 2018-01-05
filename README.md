@@ -17,6 +17,8 @@ Install Douyu cleaner plus
 https://userstyles.org/styles/136524/
 
 # Introduction on stylish
+这个主题不是Douyu cleaner作者授权或负责维护的，到那边提交我看不到原作者也不会管。
+如果有任何不爽都可以写邮件或者留评论或者到github上告诉我
 <i>
 请注意必须同时安装本体：
 <a href="https://userstyles.org/styles/132037/douyu-cleaner">https://userstyles.org/styles/132037/douyu-cleaner</a>
@@ -37,6 +39,7 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 [2018/1/5]
 [#]更改标题背景配色为官方header颜色
 [+]对斗鱼视频做了一些适配，依旧是只适合看特定主播的人。隐藏推荐模块，淡化搜索框。
+[+]隐藏不可以领取时等待领取的按钮。将领取按钮显示在计时器上。
 
 [2018/1/3] issued by Zed
 [#]对标题添加背景，避免出现和页面的重叠

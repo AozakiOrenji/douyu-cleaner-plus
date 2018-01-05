@@ -69,9 +69,22 @@
         font-size: 12px;
     }
 
-    /* 一直显示领取按钮 */
-    .yet:not(.follow-btn), .wait-get, .w-cq-get, .may-get, .cq-get, .w-cq-get+a, .cq-get+a, .yw-collect-box .close, .get-state-ard {
+    /* 如果可以领取，一直显示领取按钮 */
+    .yet:not(.follow-btn), .yet:not(.follow-btn)+a, .wait-get, .wait-get+a, .w-cq-get, .may-get, .cq-get, .w-cq-get+a, .cq-get+a, .yw-collect-box .close, .get-state-ard {
         display: none !important;
+    }
+
+    .may-get+a{
+        border:5px solid white;
+        position: relative;
+        left: -5px;
+        top: -5px;
+    }
+
+    .cb-list{
+        z-index: 65535;
+        position: relative;
+        left: -160px;
     }
 
     .yw-collect-box {
@@ -81,6 +94,7 @@
         background: none !important;
         display: block !important;
     }
+
     /* 修复点击领取鱼丸按钮出现提示导致领取鱼丸列表向上偏移 */
     .c-txt {
         display: none !important;

@@ -270,8 +270,12 @@
     }
 
     /* attempt to block future ads */
-    [class*="festival"]:not(#header), [class*="guide"], [class*="notice"]:not([class*="no-notice"]), [class*="pendant"], [class*="guess"]{
+    [class*="festival"]:not(#header), [class*="guide"], [class*="notice"]:not([class*="no-notice"]), [class*="pendant"], [class*="guess"], [class*="ad"]:not([class*="head"]):not([class*="radar"]), [class*="noble"]{
         display: none;
+    }
+    /* attempt to unblock elements which blocked by ads */
+    [type="hidden"]{
+        display: inline-block;
     }
 
     .action-list{

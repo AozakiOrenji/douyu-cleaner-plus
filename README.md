@@ -36,6 +36,9 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 如果你的直播间用此样式时出现问题，欢迎联系 447f.misaka@outlook.com 或 2917433887@qq.com
 
 ## Changelog
+[2018/1/26]
+[#]尝试避免误伤验证码滑条
+
 [2018/1/25]
 [+]尝试屏蔽所有贵族元素和广告元素。如有错误的屏蔽请让我知道。
 [#]干死领取广告。斗鱼有完没完啊。

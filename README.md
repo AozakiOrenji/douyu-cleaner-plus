@@ -36,6 +36,9 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 如果你的直播间用此样式时出现问题，欢迎联系 447f.misaka@outlook.com 或 2917433887@qq.com
 
 ## Changelog
+[2018/1/28]
+[#]复现成功，尝试避免误伤验证码滑条，试图2
+
 [2018/1/26]
 [#]尝试避免误伤验证码滑条
 

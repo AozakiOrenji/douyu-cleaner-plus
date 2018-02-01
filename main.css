@@ -271,7 +271,7 @@
 
     /* attempt to block future ads */
     [class*="festival"]:not(#header), [class*="guide"], [class*="notice"]:not([class*="no-notice"]), [class*="pendant"], [class*="guess"], [class*="ad"]:not([class*="head"]):not([class*="radar"]):not([class*="load"]):not([class*="uado"]):not([class*="read"]), [class*="noble"]{
-        display: none;
+        display: none !important;
     }
     /* attempt to unblock elements which blocked by ads */
     [type="hidden"]{

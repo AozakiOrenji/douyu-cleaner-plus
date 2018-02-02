@@ -36,6 +36,9 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 如果你的直播间用此样式时出现问题，欢迎联系 447f.misaka@outlook.com 或 2917433887@qq.com
 
 ## Changelog
+[2018/2/2]
+[#]修复全部视频页面消失问题，将"broadcast"及"padding"添加到屏蔽元素白名单
+
 [2018/2/1]
 [+]解决广告带来的遮罩问题
 

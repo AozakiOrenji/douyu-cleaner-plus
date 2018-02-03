@@ -27,16 +27,39 @@
         display: none;
     }
 
-    .text-cont {
-        color: #000000 !important;
-    }
-
     .nick {
         display: inline !important;
     }
 
     .enter-level1 {
         display: none;
+    }
+
+    .chat-cont .c-list li{
+        margin: 0;
+        line-height: 16px;
+    }
+
+    /* disable emotion & colorset button & other adjust */
+    .expression, #js-fans-barrage{
+        display: none;
+    }
+
+    .speak-up>*:not(.shie-gift){
+        margin: 4px;
+    }
+
+    .speak-up{
+        padding-left: 10px;
+    }
+
+    .peck{
+        opacity: 0.6;
+        background-image: none !important;
+    }
+
+    .peck .peck-num, .peck-status{
+        top: 5px;
     }
 
     /* 一直显示礼物剩余时间 */
@@ -54,12 +77,22 @@
         padding: 0 8px !important;
     }
 
+    .task-Getyw .get-yw .get-box .yw-icon{
+        display: none;
+    }
+
     .arrow:not(.fl) {
         display: none !important;
     }
 
     .g-time {
         opacity: 0 !important;
+    }
+
+    .getyw-time{
+        position: relative;
+        left: -20px;
+        font-size: 14px;
     }
 
     [title$=获得鱼丸] {
@@ -122,6 +155,11 @@
 
     .g-list [data-name*="鱼丸"] {
         display: list-item;
+    }
+
+    /* make package clickable */
+    .backpack-btn{
+        z-index: 9999999;
     }
 
     /* Attempt to block all ads in gift area */
@@ -287,6 +325,24 @@
         background-color: rgba(245, 245, 245, 0.8)
     }
 
+    /* live room position fix */
+    .live-room{
+        padding: 60px 160px 0 160px !important;
+        margin: 0 !important;
+    }
+
+    #mainbody{
+        margin: 0 !important;
+        padding: 0 !important;
+        width: auto !important;
+    }
+
+    /* change general text color */
+    :root, .room-mes .headline h1, .room-mes .headline h2,
+    .room-mes .r-else li .zb-name, .room-mes .r-else li .hot-box, .room-mes .r-else li .location-box, .room-mes .r-else li .num-box, .room-mes .r-else li .weight-box,
+    .chat-cont .c-list li.hy-chat, .hy-chat, .text-cont, .gift-name, .chat-cont .c-list li.chartli .nick, .chat-cont .c-list li.jschartli .nick, .hy-org{
+        color: #3e4b75 !important;
+    }
     /* 激进策略:完全屏蔽礼物区 */
     /*#gift-content{
             display:none;

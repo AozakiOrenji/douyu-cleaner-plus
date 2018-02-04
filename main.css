@@ -1,4 +1,4 @@
-@-moz-document domain("douyu.com") {
+@-moz-document regexp(".*www\\.douyu\\.com\\/(?!(directory|cms)).+") {
     /* 进一步优化，适用于只用斗鱼看特定主播的人 */
     /* 修正底部空白 */
     html {
@@ -38,6 +38,11 @@
     .chat-cont .c-list li{
         margin: 0;
         line-height: 16px;
+    }
+
+    /* disable female icon */
+    .girl-privilege-icon{
+        display: none !important;
     }
 
     /* disable emotion & colorset button & other adjust */
@@ -341,6 +346,22 @@
     :root, .room-mes .headline h1, .room-mes .headline h2,
     .room-mes .r-else li .zb-name, .room-mes .r-else li .hot-box, .room-mes .r-else li .location-box, .room-mes .r-else li .num-box, .room-mes .r-else li .weight-box,
     .chat-cont .c-list li.hy-chat, .hy-chat, .text-cont, .gift-name, .chat-cont .c-list li.chartli .nick, .chat-cont .c-list li.jschartli .nick, .hy-org{
+        color: #3e4b75 !important;
+    }
+
+    .jschartli.hy-chat .text-cont .name{
+        opacity: 0.6;
+    }
+
+    .jschartli.hy-cont .text-cont{
+        color: #795548 !important;
+    }
+
+    .jschartli:not(.hy-chat){
+        opacity: 0.25;
+    }
+
+    .jschartli:not(.hy-chat) .text-cont{
         color: #3e4b75 !important;
     }
     /* 激进策略:完全屏蔽礼物区 */

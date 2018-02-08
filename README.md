@@ -27,7 +27,7 @@ https://userstyles.org/styles/136524/
 Fork me on github:
 https://github.com/Misaka-0x447f/douyu-cleaner-plus
 
-使用更激进的策略进一步清理直播界面和聊天框，隐藏大部分付费内容，适用于只用斗鱼看特定主播，例如星际老流氓、同卵双狗和电竞慈禧，不关注斗鱼其他活动的人。此样式只负责屏蔽**一般直播间**的东西。
+清爽斗鱼扩展包。使用更激进的策略进一步清理直播界面和聊天框，隐藏大部分付费内容，适用于只用斗鱼看特定主播，例如星际老流氓、同卵双狗和电竞慈禧，不关注斗鱼其他活动的人。此样式只负责屏蔽**一般直播间**的东西。
 
 此样式仅在Windows版Google chrome上测试过，更多的只为我自己考虑，也不会测试其他浏览器的兼容性。
 
@@ -35,7 +35,13 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 
 如果你的直播间用此样式时出现问题，欢迎联系 447f.misaka@outlook.com 或 2917433887@qq.com
 
+Support me via Litecoin: LL5oL8mYPxzHUkxwVZFQVdbs3GSwYpJDct
+
 ## Changelog
+[2018/2/8]
+[+]适配了Stylish主题选项。现在你可以指定背景图像了。默认值：禁用。
+[+]尝试修正网页底部多出来一块的问题
+
 [2018/2/4]
 [#]对聊天区颜色进行调整以便突出聊天文字内容。
 [#]对规则生效范围进行调整。现在此样式表不会影响首页、cms和全部直播页，以便于减少误伤，方便需要查看斗鱼的更多页面的用户。

@@ -67,8 +67,11 @@
         background-image: none !important;
     }
 
-    .peck .peck-num, .peck-status{
-        top: 5px;
+    .peck-status{
+        top: 20px;
+    }
+    .peck .peck-num{
+        top: -5px;
     }
 
     /* 一直显示礼物剩余时间 */

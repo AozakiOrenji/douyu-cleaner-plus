@@ -41,6 +41,7 @@ Support me via Litecoin: LL5oL8mYPxzHUkxwVZFQVdbs3GSwYpJDct
 [2018/2/8]
 [+]适配了Stylish主题选项。现在你可以指定背景图像了。默认值：禁用。
 [+]尝试修正网页底部多出来一块的问题
+[#]调整宝箱计数器位置
 
 [2018/2/4]
 [#]对聊天区颜色进行调整以便突出聊天文字内容。

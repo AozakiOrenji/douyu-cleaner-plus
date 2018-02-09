@@ -263,11 +263,6 @@
         display: none !important;
     }
 
-    /* 关闭标题背景 */
-    #header {
-        background: none;
-    }
-
     /* 修正背包icon */
     .backpack-btn {
         position: relative;
@@ -327,8 +322,21 @@
     }
 
     /* nav-bar background */
-    #header{
+    #container>#header{
         background-color: rgba(245, 245, 245, 0.8)
+    }
+
+    .o-search, .o-history>span, .o-follow>a>span, .o-login>a *, .o-login>i{
+        filter: contrast(0%) sepia(100%) saturate(50%) hue-rotate(180deg) brightness(90%);
+    }
+
+    #header>.head>.head-logo{
+        filter: contrast(0%) sepia(50%) saturate(100%) hue-rotate(180deg) brightness(120%);
+    }
+
+    #header.annualfestival-header .head-oth .o-search{
+        background-color: inherit;
+        border: 1px solid gray;
     }
 
     /* live room position fix */

@@ -38,6 +38,9 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 Support me via Litecoin: LL5oL8mYPxzHUkxwVZFQVdbs3GSwYpJDct
 
 ## Changelog
+[2018/2/9]
+[#]斗鱼做了个过节背景。我个人不喜欢过年。已尝试进行最大限度的恢复。
+
 [2018/2/8]
 [+]适配了Stylish主题选项。现在你可以指定背景图像了。默认值：禁用。
 [+]尝试修正网页底部多出来一块的问题

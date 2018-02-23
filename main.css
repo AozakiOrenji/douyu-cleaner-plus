@@ -1,4 +1,9 @@
 @-moz-document regexp(".*www\\.douyu\\.com\\/(?!(directory|cms)).+") {
+    /* Notification(s) */
+    .c-list:before{
+        content: "清爽斗鱼+ 已更新，暗色主题及主题背景已可用。这段消息将在3天后被移除。如果不想看到此类消息，请至stylish主题页面的选项(Advanced Style Settings)中选择\"通知\">\"请勿打扰\"并点击更新来应用。";
+    }
+
     /* User custom rules && block head image */
     #container, :root{
         background: none !important;
@@ -7,6 +12,136 @@
         background-size: /*[[bgSize]]*/ !important;
         background-repeat: /*[[bgRepeat]]*/!important;
     }
+
+
+    /* User custom theme - light */
+        /* nav-bar */
+        #container>#header{
+            background-color: rgba(245, 245, 245, 0.8);
+        }
+
+        .o-search, .o-history>span, .o-follow>a>span, .o-login>a *, .o-login>i{
+            filter: contrast(0%) sepia(100%) saturate(50%) hue-rotate(180deg) brightness(90%);
+        }
+
+        #header>.head>.head-logo{
+            filter: contrast(0%) sepia(50%) saturate(100%) hue-rotate(180deg) brightness(120%);
+        }
+
+        /* change general text color */
+        :root, .room-mes .headline h1, .room-mes .headline h2,
+        .room-mes .r-else li .zb-name, .room-mes .r-else li .hot-box, .room-mes .r-else li .location-box, .room-mes .r-else li .num-box, .room-mes .r-else li .weight-box,
+        .chat-cont .c-list li.hy-chat, .hy-chat, .text-cont, .gift-name, .chat-cont .c-list li.chartli .nick, .chat-cont .c-list li.jschartli .nick, .hy-org, .getyw-time,
+        .relate-text .impress-item{
+            color: #3e4b75 !important;
+        }
+
+        .jschartli.hy-chat .text-cont .name{
+            opacity: 0.6;
+        }
+
+        .jschartli.hy-cont .text-cont{
+            color: #795548 !important;
+        }
+
+        .jschartli:not(.hy-chat){
+            opacity: 0.25;
+        }
+
+        .jschartli:not(.hy-chat) .text-cont{
+            color: #3e4b75 !important;
+        }
+
+    /* User custom theme - dark */
+        /* nav-bar */
+        #container>#header{
+            background-color: rgba(46, 50, 61, 0.8);
+        }
+
+        .o-search, .o-history>span, .o-follow>a>span, .o-login>a *, .o-login>i{
+            filter: contrast(0%) sepia(100%) saturate(50%) hue-rotate(180deg) brightness(100%);
+        }
+
+        #header>.head>.head-logo{
+            filter: contrast(0%) sepia(50%) saturate(100%) hue-rotate(180deg) brightness(150%);
+        }
+
+        /* general background */
+        #anchor-info, #js-stats-and-actions, #js-chat-cont, #js-chat-speak{
+            background-color: rgba(46, 50, 61, 0.8);
+        }
+
+        /* button color fade & modify */
+        .chat-more-message{
+            filter: saturate(50%) hue-rotate(180deg) brightness(75%);
+        }
+        .may-get+a, .m-wealth>.y1, .backpack-btn{
+            filter: brightness(75%);
+        }
+        .focus-box-con{
+            filter: saturate(50%) brightness(75%);
+        }
+        .m-wealth>.y1>*{
+            filter: brightness(133%);
+        }
+        .chat-feat .b-btn{
+            background-color: #8f9bcc;
+        }
+        .chat-feat .b-btn:hover{
+            background-color: #7078a5;
+        }
+
+        /* other patches */
+        .anchor-impress>.impress-list>a{
+            background: none;
+        }
+        #header.annualfestival-header{
+            border: none;
+        }
+        #js-room-video{
+            border-left: 1px solid rgba(46, 50, 61, 0.8);
+            border-top: 1px solid rgba(46, 50, 61, 0.8);
+        }
+
+        /* de-border */
+        #anchor-info, #js-stats-and-actions, #js-chat-cont, #js-chat-speak{
+            border: none;
+        }
+
+        /* change general text color */
+        :root, .room-mes .headline h1, .room-mes .headline h2,
+        .room-mes .r-else li .zb-name, .room-mes .r-else li .hot-box, .room-mes .r-else li .location-box, .room-mes .r-else li .num-box, .room-mes .r-else li .weight-box,
+        .chat-cont .c-list li.hy-chat, .hy-chat, .text-cont, .gift-name, .chat-cont .c-list li.chartli .nick, .chat-cont .c-list li.jschartli .nick, .hy-org, .getyw-time,
+        .relate-text .impress-item{
+            color: #8f9bcc !important;
+        }
+
+        .jschartli.hy-chat .text-cont .name{
+            opacity: 0.6;
+        }
+
+        .jschartli.hy-cont .text-cont{
+            color: #795548 !important;
+        }
+
+        .jschartli:not(.hy-chat){
+            opacity: 0.25;
+        }
+
+        .jschartli:not(.hy-chat) .text-cont{
+            color: #8f9bcc !important;
+        }
+
+        /* scroll bar */
+        ::-webkit-scrollbar-track{
+            background-color: rgba(46, 50, 61, 0.8) !important;
+        }
+        ::-webkit-scrollbar-thumb{
+            background: #3e4b75 !important;
+        }
+
+/*******************************************************************************************************************************************************************/
+
 
     /* 进一步优化，适用于只用斗鱼看特定主播的人 */
     /* 屏蔽无用按钮 */
@@ -42,6 +177,10 @@
     .chat-cont .c-list li{
         margin: 0;
         line-height: 16px;
+    }
+
+    .chat-feat .cs-textarea{
+        background: inherit;
     }
 
     /* disable female icon */
@@ -81,10 +220,8 @@
         left: 48px !important;
         top: 16px !important;
         /*  z-index:-999 !important;  */
-
         font-size: 16px;
         font-weight: 400;
-        background-color: #fff !important;
         color: #000 !important;
         padding: 0 8px !important;
     }
@@ -120,10 +257,7 @@
     }
 
     .may-get+a{
-        border:5px solid white;
         position: relative;
-        left: -5px;
-        top: -5px;
     }
 
     .cb-list{
@@ -309,7 +443,7 @@
     }
 
     /* attempt to block future ads */
-    [class*="festival"]:not(#header), [class*="guide"], [class*="notice"]:not([class*="no-notice"]), [class*="pendant"], [class*="guess"], [class*="ad"]:not([class*="head"]):not([class*="radar"]):not([class*="load"]):not([class*="uado"]):not([class*="read"]):not([class*="padding"]):not([class*="broadcast"]), [class*="noble"]{
+    [class*="festival"]:not(#header), [class*="guide"], [class*="notice"]:not([class*="no-notice"]), [class*="pendant"], [class*="guess"], [class*="ad"]:not([class*="head"]):not([class*="radar"]):not([class*="load"]):not([class*="uado"]):not([class*="read"]):not([class*="padding"]):not([class*="broadcast"]):not([class*="add"]), [class*="noble"]{
         display: none !important;
     }
     /* attempt to unblock elements which blocked by ads */
@@ -319,19 +453,6 @@
 
     .action-list{
         display: none !important;
-    }
-
-    /* nav-bar background */
-    #container>#header{
-        background-color: rgba(245, 245, 245, 0.8)
-    }
-
-    .o-search, .o-history>span, .o-follow>a>span, .o-login>a *, .o-login>i{
-        filter: contrast(0%) sepia(100%) saturate(50%) hue-rotate(180deg) brightness(90%);
-    }
-
-    #header>.head>.head-logo{
-        filter: contrast(0%) sepia(50%) saturate(100%) hue-rotate(180deg) brightness(120%);
     }
 
     #header.annualfestival-header .head-oth .o-search{
@@ -351,27 +472,9 @@
         width: auto !important;
     }
 
-    /* change general text color */
-    :root, .room-mes .headline h1, .room-mes .headline h2,
-    .room-mes .r-else li .zb-name, .room-mes .r-else li .hot-box, .room-mes .r-else li .location-box, .room-mes .r-else li .num-box, .room-mes .r-else li .weight-box,
-    .chat-cont .c-list li.hy-chat, .hy-chat, .text-cont, .gift-name, .chat-cont .c-list li.chartli .nick, .chat-cont .c-list li.jschartli .nick, .hy-org{
-        color: #3e4b75 !important;
-    }
-
-    .jschartli.hy-chat .text-cont .name{
-        opacity: 0.6;
-    }
-
-    .jschartli.hy-cont .text-cont{
-        color: #795548 !important;
-    }
-
-    .jschartli:not(.hy-chat){
-        opacity: 0.25;
-    }
-
-    .jschartli:not(.hy-chat) .text-cont{
-        color: #3e4b75 !important;
+    /* other patches - remove bgColor from getyw time */
+    .task-Getyw .tip{
+        background: none;
     }
 
     /* smooth scroll - not work property now */

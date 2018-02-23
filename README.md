@@ -39,7 +39,9 @@ Support me via Litecoin: LL5oL8mYPxzHUkxwVZFQVdbs3GSwYpJDct
 
 ## Changelog
 [2018/2/9]
+[+]暗色主题上线。
 [#]斗鱼做了个过节背景。我个人不喜欢过年。已尝试进行最大限度的恢复。
+[+]增加了通知。用户可以主动关闭未来所有通知。受css能力限制，做不了不再提醒按钮。
 
 [2018/2/8]
 [+]适配了Stylish主题选项。现在你可以指定背景图像了。默认值：禁用。

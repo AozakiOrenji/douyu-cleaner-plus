@@ -496,7 +496,8 @@
     }
 
     .action-item>.guess-user-reminding-out>*, .action-item>.guess-user-reminding-out-special>*,
-    .action-item>.guess-ancher-reminding-out>*, .action-item>.tips, .action-item>.guess-user-reminding>*{
+    .action-item>.guess-ancher-reminding-out>*, .action-item>.tips, .action-item>.guess-user-reminding,
+    .action-item>.guess-user-reminding>*, .guess-user-reminding{
         display: none !important;
     }
 

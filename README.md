@@ -38,6 +38,9 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 Support me via Litecoin: LL5oL8mYPxzHUkxwVZFQVdbs3GSwYpJDct
 
 ## Changelog
+[2018/2/23]
+[+]允许竞猜功能显示，并改善竞猜功能外观
+
 [2018/2/9]
 [+]暗色主题上线。
 [#]斗鱼做了个过节背景。我个人不喜欢过年。已尝试进行最大限度的恢复。

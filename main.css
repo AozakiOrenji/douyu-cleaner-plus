@@ -1,7 +1,7 @@
 @-moz-document regexp(".*www\\.douyu\\.com\\/(?!(directory|cms)).+") {
     /* Notification(s) */
     .c-list:before {
-        content: "清爽斗鱼+ 已更新，暗色主题及主题背景已可用。这段消息将在3天后被移除。如果不想看到此类消息，请至stylish主题页面的选项(Advanced Style Settings)中选择\"通知\">\"请勿打扰\"并点击更新来应用。";
+        content: "清爽斗鱼+ 本次更新已尝试处理竞猜功能的样式，目前处于测试过程中。如果有任何问题欢迎来信反馈。";
     }
 
     /* User custom rules && block head image */
@@ -359,11 +359,6 @@
         display: none !important;
     }
 
-    /* 屏蔽神tm圣诞礼物活动 */
-    #js-stats-and-actions .action-list {
-        display: none;
-    }
-
     /* 屏蔽X爵 */
     .enter-level1, .enter-level2, .enter-level3, .enter-level4, .enter-level5 {
         display: none;
@@ -447,16 +442,12 @@
     }
 
     /* attempt to block future ads */
-    [class*="festival"]:not(#header), [class*="guide"], [class*="notice"]:not([class*="no-notice"]), [class*="pendant"], [class*="guess"], [class*="ad"]:not([class*="head"]):not([class*="radar"]):not([class*="load"]):not([class*="uado"]):not([class*="read"]):not([class*="padding"]):not([class*="broadcast"]):not([class*="add"]), [class*="noble"]{
+    [class*="festival"]:not(#header), [class*="guide"], [class*="notice"]:not([class*="no-notice"]), [class*="pendant"], [class*="ad"]:not([class*="head"]):not([class*="radar"]):not([class*="load"]):not([class*="uado"]):not([class*="read"]):not([class*="padding"]):not([class*="broadcast"]):not([class*="add"]), [class*="noble"]{
         display: none !important;
     }
     /* attempt to unblock elements which blocked by ads */
     [type="hidden"]{
         display: inline-block;
-    }
-
-    .action-list{
-        display: none !important;
     }
 
     #header.annualfestival-header .head-oth .o-search{
@@ -479,6 +470,42 @@
     /* other patches - remove bgColor from getyw time */
     .task-Getyw .tip{
         background: none;
+    }
+
+    /* 屏蔽动作栏，除竞猜 */
+    #js-stats-and-actions .action-list>*:not([data-flag="anchor_quiz"]) {
+        display: none;
+    }
+
+    /* guess part repair. */
+    /* here we comes with a css hack. sticky is not static so that we can cancel the button's space */
+    .action-item[data-flag="anchor_quiz"]{
+        position: sticky;
+    }
+
+    .guess-game-btn{
+        position: absolute;
+        background: none;
+    }
+
+    .action-item[data-flag="anchor_quiz"]>.guess-game-wrap:before{
+        content: "竞猜";
+        position: relative;
+        top: 11px;
+        left: 14px;
+    }
+
+    .action-item>.guess-user-reminding-out>*, .action-item>.guess-user-reminding-out-special>*,
+    .action-item>.guess-ancher-reminding-out>*, .action-item>.tips, .action-item>.guess-user-reminding>*{
+        display: none !important;
+    }
+
+    .guess-game-box-body>.noGuessBox:before{
+        content: "这位主播尚未发起竞猜。坐和放宽。"
+    }
+
+    .guess-game-box-body>.noGuessBox>* {
+        display: none
     }
 
     /* smooth scroll - not work property now */

@@ -38,6 +38,9 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 Support me via Litecoin: LL5oL8mYPxzHUkxwVZFQVdbs3GSwYpJDct
 
 ## Changelog
+[2018/2/25]
+[+]尝试解除对官方H5播放器（试用支持）的屏蔽。我们仍然建议用家使用第三方H5。由于放行规则较为宽松，也许会放过一些广告，遇到此种情形请反馈。
+
 [2018/2/23]
 [+]允许竞猜功能显示，并改善竞猜功能外观
 

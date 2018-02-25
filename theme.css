@@ -1,0 +1,132 @@
+/*[[theme]]*/
+/* User custom theme - light */
+/* nav-bar */
+#container > #header {
+    background-color: rgba(245, 245, 245, 0.8);
+}
+
+.o-search, .o-history > span, .o-follow > a > span, .o-login > a *, .o-login > i {
+    filter: contrast(0%) sepia(100%) saturate(50%) hue-rotate(180deg) brightness(90%);
+}
+
+#header > .head > .head-logo {
+    filter: contrast(0%) sepia(50%) saturate(100%) hue-rotate(180deg) brightness(120%);
+}
+
+/* change general text color */
+:root, .room-mes .headline h1, .room-mes .headline h2,
+.room-mes .r-else li .zb-name, .room-mes .r-else li .hot-box, .room-mes .r-else li .location-box, .room-mes .r-else li .num-box, .room-mes .r-else li .weight-box,
+.chat-cont .c-list li.hy-chat, .hy-chat, .text-cont, .gift-name, .chat-cont .c-list li.chartli .nick, .chat-cont .c-list li.jschartli .nick, .hy-org, .getyw-time,
+.relate-text .impress-item {
+    color: #3e4b75 !important;
+}
+
+.jschartli.hy-chat .text-cont .name {
+    opacity: 0.6;
+}
+
+.jschartli.hy-cont .text-cont {
+    color: #795548 !important;
+}
+
+.jschartli:not(.hy-chat) {
+    opacity: 0.25;
+}
+
+.jschartli:not(.hy-chat) .text-cont {
+    color: #3e4b75 !important;
+}
+
+/**********************************************************************************************************************/
+/**********************************************************************************************************************/
+/**********************************************************************************************************************/
+/**********************************************************************************************************************/
+/**********************************************************************************************************************/
+
+/* User custom theme - dark */
+/* nav-bar */
+#container > #header {
+    background-color: rgba(46, 50, 61, 0.8);
+}
+
+.o-search, .o-history > span, .o-follow > a > span, .o-login > a *, .o-login > i {
+    filter: contrast(0%) sepia(100%) saturate(50%) hue-rotate(180deg) brightness(100%);
+}
+
+#header > .head > .head-logo {
+    filter: contrast(0%) sepia(50%) saturate(100%) hue-rotate(180deg) brightness(150%);
+}
+
+/* general background */
+#anchor-info, #js-stats-and-actions, #js-chat-cont, #js-chat-speak {
+    background-color: rgba(46, 50, 61, 0.8);
+}
+
+/* button color fade & modify */
+.chat-more-message {
+    filter: saturate(50%) hue-rotate(180deg) brightness(75%);
+}
+.may-get + a, .m-wealth > .y1, .backpack-btn {
+    filter: brightness(75%);
+}
+.focus-box-con {
+    filter: saturate(50%) brightness(75%);
+}
+.m-wealth > .y1 > * {
+    filter: brightness(133%);
+}
+.chat-feat .b-btn {
+    background-color: #8f9bcc;
+}
+.chat-feat .b-btn:hover {
+    background-color: #7078a5;
+}
+
+/* other patches */
+.anchor-impress > .impress-list > a {
+    background: none;
+}
+#header.annualfestival-header {
+    border: none;
+}
+#js-room-video {
+    border-left: 1px solid rgba(46, 50, 61, 0.8);
+    border-top: 1px solid rgba(46, 50, 61, 0.8);
+}
+
+/* de-border */
+#anchor-info, #js-stats-and-actions, #js-chat-cont, #js-chat-speak {
+    border: none;
+}
+
+/* change general text color */
+:root, .room-mes .headline h1, .room-mes .headline h2,
+.room-mes .r-else li .zb-name, .room-mes .r-else li .hot-box, .room-mes .r-else li .location-box, .room-mes .r-else li .num-box, .room-mes .r-else li .weight-box,
+.chat-cont .c-list li.hy-chat, .hy-chat, .text-cont, .gift-name, .chat-cont .c-list li.chartli .nick, .chat-cont .c-list li.jschartli .nick, .hy-org, .getyw-time,
+.relate-text .impress-item {
+    color: #8f9bcc !important;
+}
+
+.jschartli.hy-chat .text-cont .name {
+    opacity: 0.6;
+}
+
+.jschartli.hy-cont .text-cont {
+    color: #795548 !important;
+}
+
+.jschartli:not(.hy-chat) {
+    opacity: 0.25;
+}
+
+.jschartli:not(.hy-chat) .text-cont {
+    color: #8f9bcc !important;
+}
+
+/* scroll bar */
+::-webkit-scrollbar-track {
+    background-color: rgba(46, 50, 61, 0.8) !important;
+}
+::-webkit-scrollbar-thumb {
+    background: #3e4b75 !important;
+}

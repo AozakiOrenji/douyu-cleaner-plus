@@ -17,6 +17,8 @@ Install Douyu cleaner plus
 https://userstyles.org/styles/136524/
 
 # Introduction on stylish
+因为不愿意提供手机号，斗鱼把我号封了。若无意外将不再为已登入后的体验进行优化。新增未登入体验优化选项。
+
 这个主题不是Douyu cleaner作者授权或负责维护的，到那边提交我看不到原作者也不会管。
 如果有任何不爽都可以写邮件或者留评论或者到github上告诉我
 <i>
@@ -38,6 +40,10 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 Support me via Litecoin: LL5oL8mYPxzHUkxwVZFQVdbs3GSwYpJDct
 
 ## Changelog
+[2018/3/10]
+[+]因为不提供手机号，斗鱼把我号封了。从这个版本开始若无意外将不再为已登入后的体验进行优化。
+[+]新增不可登入体验优化选项。
+
 [2018/2/28]
 [+]新增屏蔽元素关键字"-mall"。
 

@@ -1,0 +1,8 @@
+/* nuke enabled - Remove all feature except live && danmaku */
+.stats-and-actions, .chat-speak, .o-unlogin{
+    display: none;
+}
+
+.chat-cont{
+    height: 100%;
+}

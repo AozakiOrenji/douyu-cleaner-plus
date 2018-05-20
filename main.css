@@ -390,6 +390,18 @@
         display: none
     }
 
+    #container > [data-component-id="view"] > * > * > * > :not([data-component-id="room"]) {
+    	display: none !important;
+    }
+    
+    #container > [data-component-id="view"] > * > * {
+    	margin: 0 !important;
+    }
+    
+    #container > [data-component-id="view"] {
+    	background-color: inherit !important;
+    }
+
     /* smooth scroll - not work property now */
     /*.chat-cont-wrap{
         scroll-behavior: smooth;

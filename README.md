@@ -40,6 +40,9 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 Support me via Litecoin: LL5oL8mYPxzHUkxwVZFQVdbs3GSwYpJDct
 
 ## Changelog
+[2018/5/20]
+[+]干掉右上角开播按钮
+
 [2018/3/10]
 [+]因为不提供手机号，斗鱼把我号封了。从这个版本开始若无意外将不再为已登入后的体验进行优化。
 [+]新增不可登入体验优化选项。

@@ -25,7 +25,7 @@
 /**********************************************************************************************************************/
 
 @-moz-document regexp(".*www\\.douyu\\.com\\/(?!(directory|cms)).+") {
-    /* 进一步优化，适用于只用斗鱼看特定主播的人 */
+/* 进一步优化，适用于只用斗鱼看特定主播的人 */
     /* 屏蔽无用按钮 */
     .head .head-nav, .head-oth .o-download, .head-oth .head-history, .catagory-order-head .catagory-order-num {
         display: none;
@@ -322,7 +322,8 @@
     /* attempt to block future ads */
     [class*="festival"]:not(#header), [class*="guide"], [class*="notice"]:not([class*="no-notice"]), [class*="pendant"],
     [class*="ad"]:not([class*="head"]):not([class*="radar"]):not([class*="load"]):not([class*="uado"]):not([class*="read"]):not([class*="padding"]):not([class*="broadcast"]):not([class*="add"]):not([class*="menu-"]):not([class*="app-"]):not([class*="video-container-"]),
-    [class*="noble"], [class*="-mall"]{
+    [class*="noble"], [class*="-mall"],
+    [class*="o-broadcast"]{
         display: none !important;
     }
     /* attempt to unblock elements which blocked by ads */

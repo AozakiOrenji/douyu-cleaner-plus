@@ -40,6 +40,9 @@ https://github.com/Misaka-0x447f/douyu-cleaner-plus
 Support me via Litecoin: LL5oL8mYPxzHUkxwVZFQVdbs3GSwYpJDct
 
 ## Changelog
+[2018/6/22]
+[+]屏蔽世界杯
+
 [2018/5/20]
 [+]干掉右上角开播按钮
 [+]处理部分特殊直播间

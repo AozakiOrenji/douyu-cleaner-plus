@@ -390,7 +390,7 @@
         display: none
     }
 
-    #container > [data-component-id="view"] > * > * > * > :not([data-component-id="room"]) {
+    #container > [data-component-id="view"] > * > * > * > :not([data-component-id="room"]):not(#mainbody) {
     	display: none !important;
     }
     
@@ -401,10 +401,13 @@
     #container > [data-component-id="view"] {
     	background-color: inherit !important;
     }
-
+    
     /* block douyu world cup */
     .WorldCupFans {
-        display: none !important;
+    	display: none !important;
+    }
+    [data-component-id="ladderNav"] {
+    	display: none !important;
     }
 
     /* smooth scroll - not work property now */

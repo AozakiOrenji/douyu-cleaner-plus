@@ -19,23 +19,24 @@ https://userstyles.org/styles/136524/
 # Introduction on stylish
 因为不愿意提供手机号，斗鱼把我号封了。若无意外将不再为已登入后的体验进行优化。新增未登入体验优化选项。
 
-这个主题不是Douyu cleaner作者授权或负责维护的，到那边提交我看不到原作者也不会管。
-如果有任何不爽都可以写邮件或者留评论或者到github上告诉我
+这个主题不是Douyu cleaner作者授权或负责维护的，到那边写评论我看不到原作者也不会管。
+如果有任何不爽都可以写邮件或者留评论或者到github上告诉我（建议用邮件因为只有发邮件我才能收到通知）
+
+如果你的直播间用此样式时出现问题，欢迎联系 447f.misaka@outlook.com 或 2917433887@qq.com
+
 <i>
-请注意必须同时安装本体：
+请注意需要同时安装本体：
 <a href="https://userstyles.org/styles/132037/douyu-cleaner">https://userstyles.org/styles/132037/douyu-cleaner</a>
 </i>
 
 Fork me on github:
 https://github.com/Misaka-0x447f/douyu-cleaner-plus
 
-清爽斗鱼扩展包。使用更激进的策略进一步清理直播界面和聊天框，隐藏大部分付费内容，适用于只用斗鱼看特定主播，例如星际老流氓、同卵双狗和电竞慈禧，不关注斗鱼其他活动的人。此样式只负责屏蔽**一般直播间**的东西。
+使用更激进的策略进一步清理直播界面和聊天框，隐藏大部分付费内容，适用于只用斗鱼看特定主播，例如星际老流氓、同卵双狗和电竞慈禧，不关注斗鱼其他活动的人。此样式只负责屏蔽**一般直播间**的东西。
 
 此样式仅在Windows版Google chrome上测试过，更多的只为我自己考虑，也不会测试其他浏览器的兼容性。
 
 视频区域的礼物特效我也没办法的呀，那个是shockwave flash做的播放器并不是html做的东西stylish屏蔽不了的，我相信用stylish的大部分应该有web方面鸡本功的对不对。想屏蔽的话还是建议用第三方播放器比较好。
-
-如果你的直播间用此样式时出现问题，欢迎联系 447f.misaka@outlook.com 或 2917433887@qq.com
 
 Support me via Litecoin: LL5oL8mYPxzHUkxwVZFQVdbs3GSwYpJDct
 

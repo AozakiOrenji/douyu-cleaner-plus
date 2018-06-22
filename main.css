@@ -402,6 +402,11 @@
     	background-color: inherit !important;
     }
 
+    /* block douyu world cup */
+    .WorldCupFans {
+        display: none !important;
+    }
+
     /* smooth scroll - not work property now */
     /*.chat-cont-wrap{
         scroll-behavior: smooth;

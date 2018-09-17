@@ -323,7 +323,7 @@
     [class*="festival"]:not(#header), [class*="guide"], [class*="notice"]:not([class*="no-notice"]), [class*="pendant"],
     [class*="ad"]:not([class*="head"]):not([class*="radar"]):not([class*="load"]):not([class*="uado"]):not([class*="read"]):not([class*="padding"]):not([class*="broadcast"]):not([class*="add"]):not([class*="menu-"]):not([class*="app-"]):not([class*="video-container-"]),
     [class*="noble"], [class*="-mall"],
-    [class*="o-broadcast"], [class*="annual"]{
+    [class*="o-broadcast"], [class*="annual"], [class*="Annual"]{
         display: none !important;
     }
     /* attempt to unblock elements which blocked by ads */
